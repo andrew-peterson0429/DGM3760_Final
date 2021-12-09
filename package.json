@@ -1,0 +1,28 @@
+{
+  "name": "dgm3760_final",
+  "version": "1.0.0",
+  "description": "Final Project for DGM3760",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrew-peterson0429/DGM3760_Final.git"
+  },
+  "author": "Andrew Peterson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrew-peterson0429/DGM3760_Final/issues"
+  },
+  "homepage": "https://github.com/andrew-peterson0429/DGM3760_Final#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.1.0",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
