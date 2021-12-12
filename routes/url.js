@@ -10,7 +10,7 @@ const shortid = require('shortid')
 const router = express.Router()
 
 // import the Url database model
-const Url = require('../models/Url')
+const Url = require('../models/UrlModel')
 
 // The API base Url endpoint
 const baseUrl = 'http:localhost:5000'
