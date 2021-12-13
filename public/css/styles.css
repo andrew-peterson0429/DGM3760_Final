@@ -341,12 +341,18 @@ header {
   align-items: center;
   width: 30vw;
   height: 50px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  cursor: pointer; }
 
 #searchItems {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; }
+  justify-content: center;
+  margin-bottom: 2rem; }
+
+span#shortUrl {
+  color: #fff;
+  text-align: center; }
 
 /*----------- FOOTER --------------*/
 /* footer {
