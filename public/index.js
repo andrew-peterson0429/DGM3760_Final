@@ -3,7 +3,8 @@ const shortUrl = document.getElementById('shortUrl')
 let shortId
 
 
-const submitUrl = async () => {
+
+let submitUrl = async () => {
     let response = await axios({
         method: 'POST', 
         url: 'api/url/shorten', 
@@ -19,8 +20,10 @@ const submitUrl = async () => {
     }
 }
 
+
 const subBtn = document.getElementById('shortenURLbtn')
 subBtn.addEventListener('click', submitUrl)
+
 
 
 const deleteUrl = async () => {
