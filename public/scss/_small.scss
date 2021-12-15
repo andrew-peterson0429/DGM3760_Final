@@ -124,7 +124,8 @@ div#shortUrl {
 #deleteBtn {
     display: flex;
     color: $primaryColor;
-    background-color:transparent;
+    background-color:$menuColor;
+    border-color: $primaryColor;
     // border: none;
 }
 

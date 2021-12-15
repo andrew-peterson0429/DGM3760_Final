@@ -404,7 +404,8 @@ div#shortUrl {
 #deleteBtn {
   display: flex;
   color: #24e6de;
-  background-color: transparent; }
+  background-color: #182a57;
+  border-color: #24e6de; }
 
 /*----------- FOOTER --------------*/
 @media only screen and (min-width: 35rem) {
