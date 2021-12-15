@@ -399,13 +399,25 @@ div#shortUrl {
 #copyBtn {
   color: #24e6de;
   background-color: #182a57;
-  border-color: #24e6de; }
+  border-color: #24e6de;
+  cursor: pointer; }
+
+#copyBtn:hover {
+  color: #182a57;
+  background-color: #24e6de;
+  border-color: none; }
 
 #deleteBtn {
   display: flex;
   color: #24e6de;
   background-color: #182a57;
-  border-color: #24e6de; }
+  border-color: #24e6de;
+  cursor: pointer; }
+
+#deleteBtn:hover {
+  color: #24e6de;
+  background-color: #182a57;
+  border-color: none; }
 
 /*----------- FOOTER --------------*/
 @media only screen and (min-width: 35rem) {

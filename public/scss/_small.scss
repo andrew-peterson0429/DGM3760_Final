@@ -119,14 +119,28 @@ div#shortUrl {
     color: $primaryColor;
     background-color:$menuColor;
     border-color: $primaryColor;
+    cursor: pointer;
 }
+
+#copyBtn:hover {
+    color: $menuColor;
+    background-color: $primaryColor;
+    border-color: none;
+}
+
 
 #deleteBtn {
     display: flex;
     color: $primaryColor;
     background-color:$menuColor;
     border-color: $primaryColor;
-    // border: none;
+    cursor: pointer;
+}
+
+#deleteBtn:hover {
+    color: $primaryColor;
+    background-color: $menuColor;
+    border-color: none;
 }
 
 /*----------- FOOTER --------------*/
