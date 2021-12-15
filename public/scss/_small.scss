@@ -106,11 +106,19 @@ div#shortUrl {
     display: flex;
     justify-content: space-between;
     align-content: space-around;
+    align-items: center;
     color: $primaryColor;
+    padding-left: 1rem;
     // text-align: center;
     background-color: $menuColor;
-    width: 90vw;
+    width: 70vw;
     height: auto;
+}
+
+#copyBtn {
+    color: $primaryColor;
+    background-color:$menuColor;
+    border-color: $primaryColor;
 }
 
 #deleteBtn {

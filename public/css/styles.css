@@ -389,10 +389,17 @@ div#shortUrl {
   display: flex;
   justify-content: space-between;
   align-content: space-around;
+  align-items: center;
+  color: #24e6de;
+  padding-left: 1rem;
+  background-color: #182a57;
+  width: 70vw;
+  height: auto; }
+
+#copyBtn {
   color: #24e6de;
   background-color: #182a57;
-  width: 90vw;
-  height: auto; }
+  border-color: #24e6de; }
 
 #deleteBtn {
   display: flex;
