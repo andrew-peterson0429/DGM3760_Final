@@ -33,7 +33,8 @@ const deleteUrl = async () => {
     })
     if (response.status === 200) {
         shortUrl.innerHTML = response.data.shortUrl
-        shortUrl.style.display = 'block'
+        shortUrl.style.display = 'none'
+        deleteBtn.style.display = 'none'
     }
 }
 
