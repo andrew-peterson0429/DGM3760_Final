@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="description" content="Fill Me In">
+<meta name="description" content="DGM 3760's Finest URL Shortening App">
 <meta name="author" content="Andrew and Moe Peterson">
 
 <title>URsmalL</title>
@@ -15,13 +15,15 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
      
 </head>
-<body>
+<body class="responsive">
 
 <!-- HEADER HERE -->
 	<header>
-        <h1>URsmalL</h1>
+        <div id="logo">
+        </div>
     </header>
 
 <!-- NAVIGATION HERE -->
@@ -37,14 +39,28 @@
             <div id="searchItems">
                 <input id="searchBar" type="text" placeholder="Type URL to shorten">
                 <button id="shortenURLbtn">Shorten URL</button>
-            </div>
+                
+                <div class="flexed">
 
-            <div>
-                <span id="shortUrl" style="display: none;"></span>
-                <button id="deleteBtn"></button>
-            </div>
+                    <div>
+                        <button id="copyBtn" style="display: none;">Copy</button>
+                    </div>
+                    
+                    <div id="shortUrl" style="display: none;"></div>
+                    
+                    <div>
+                        <button id="deleteBtn" style="display: none;">X</button>
+                    </div>
+                    
+                </div>
             
+            </div>
         </div>
+            
+        <!-- <div class="flexed">
+            <span class="center" id="shortUrl" style="display: none;"></span>
+            <button id="deleteBtn">X</button>
+        </div> -->
        
     </main>
 

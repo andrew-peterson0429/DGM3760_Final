@@ -5,20 +5,36 @@
 body {
     font-size: 16px;
     font-family: $mainFont;
-    background-image: url("/images/mountains.jpg");
+    background-image: url("/images/mountains560.jpg");
     background-repeat: no-repeat;
-    width: 100vw;
+  /*   width: 100vw;
     height: 100vh;
-    background-size: 100% 100%;
+    background-size: 100% 100%; */
 }
 
+.responsive {
+    width: 100%;
+    height: auto;
+}
+  
 
 /*----------- HEADER --------------*/
 
 header {
     display: flex;
     justify-content: center;
+    display: flex;
+    justify-content: center;
     color: #fff;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    width: 125px;
+    height: 137px;
+    background-image: url("/images/logo125.png");
+    background-repeat: no-repeat;
 }
 
 
@@ -27,6 +43,7 @@ header {
 
 
 /*----------- MAIN --------------*/
+
 .center {
     position: absolute;
     left: 50%;
@@ -35,12 +52,29 @@ header {
     padding: 10px;
 }
 
+.flexed {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+::placeholder {
+    color: $primaryColor;
+    padding-left: 1rem;
+}
+
+input[type=text] {
+    color: $primaryColor;
+}
+
 #searchBar {
     display: flex;
     width: 90vw;
     height: 50px;
-    border-radius: 10px;
+    border-radius: 30px;
     margin-bottom: 1.5rem;
+    background-color: $menuColor;
+    border-color: $primaryColor;
 }
 
 #shortenURLbtn {
@@ -48,9 +82,17 @@ header {
     justify-content: center;
     align-items: center;
     width: 30vw;
-    height: 50px;
-    border-radius: 10px;
+    height: 60px;
+    border-radius: 30px;
+    color: $menuColor;
+    background-color: $primaryColor;
+    border-color: none;
     cursor: pointer;
+}
+
+#shortenURLbtn:hover {
+    color: $primaryColor;
+    background-color: $menuColor;
 }
 
 #searchItems {
@@ -60,17 +102,45 @@ header {
     margin-bottom: 2rem;
 }
 
-span#shortUrl {
-    color: #fff;
-    text-align: center;
+div#shortUrl {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items: center;
+    color: $primaryColor;
+    padding-left: 1rem;
+    // text-align: center;
+    background-color: $menuColor;
+    width: 70vw;
+    height: auto;
+}
+
+#copyBtn {
+    color: $primaryColor;
+    background-color:$menuColor;
+    border-color: $primaryColor;
+    cursor: pointer;
+}
+
+#copyBtn:hover {
+    color: $menuColor;
+    background-color: $primaryColor;
+    border-color: none;
 }
 
 
+#deleteBtn {
+    display: flex;
+    color: $primaryColor;
+    background-color:$menuColor;
+    border-color: $primaryColor;
+    cursor: pointer;
+}
+
+#deleteBtn:hover {
+    color: $primaryColor;
+    background-color: $menuColor;
+    border-color: none;
+}
+
 /*----------- FOOTER --------------*/
-/* footer {
-    grid-area: footer;
-    background-color: #020111;
-    color: #fff;
-    text-align: center;
-    padding: .5rem 2%;
-} */
